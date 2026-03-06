@@ -2,6 +2,19 @@
 
 Организационный репозиторий [selfshop-dev](https://github.com/selfshop-dev). Содержит дефолтные community health files для всех репозиториев организации.
 
+## Rulesets
+
+Готовые rulesets для новых репозиториев хранятся в `rulesets/`.
+
+### Применить защиту default ветки
+```bash
+gh api repos/selfshop-dev/REPO-NAME/rulesets \
+  --method POST \
+  --input rulesets/protect-default-branch.json
+```
+
+Заменить `REPO-NAME` на имя нового репозитория.
+
 ### Что наследуется автоматически
 
 | Файл | Назначение |
