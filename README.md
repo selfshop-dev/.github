@@ -6,14 +6,18 @@
 
 Готовые rulesets для новых репозиториев хранятся в `rulesets/`.
 
-### Применить защиту default ветки
+### protect-default-branch
+
+Защищает ветки `main` и `dev`: требует PR, линейную историю, прохождение CI-чеков и блокирует force push.
+
+**Применить к новому репозиторию:**
 ```bash
 gh api repos/selfshop-dev/REPO-NAME/rulesets \
   --method POST \
-  --input rulesets/protect-default-branch.json
+  --input <(curl -s https://raw.githubusercontent.com/selfshop-dev/.github/main/rulesets/protect-default-branch.json)
 ```
 
-Заменить `REPO-NAME` на имя нового репозитория.
+Заменить `REPO-NAME` на имя репозитория.
 
 ### Что наследуется автоматически
 
