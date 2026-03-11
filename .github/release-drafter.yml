@@ -1,0 +1,45 @@
+name-template: '$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+
+categories:
+  - title: '💥 Breaking Changes'
+    labels: ['💥 Breaking Change']
+
+  - title: '✨ Features'
+    labels: ['✨ Feature']
+    exclude-labels: ['💥 Breaking Change']
+
+  - title: '🐛 Bug Fixes'
+    labels: ['🐛 Bug']
+    exclude-labels: ['💥 Breaking Change', '✨ Feature']
+
+  - title: '🛡️ CI / Workflows'
+    labels: ['🛡️ CI / Workflows']
+    exclude-labels: ['💥 Breaking Change', '✨ Feature', '🐛 Bug']
+    collapse-after: 3
+
+  - title: '🧹 Other Changes'
+    labels: ['🧹 Chore', '📚 Documentation']
+    exclude-labels: ['💥 Breaking Change', '✨ Feature', '🐛 Bug', '🛡️ CI / Workflows']
+    collapse-after: 3
+
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-title-escapes: '\<*_&'
+
+version-resolver:
+  major:
+    labels: ['💥 Breaking Change']
+  minor:
+    labels: ['✨ Feature']
+  patch:
+    labels:
+      - '🐛 Bug'
+      - '🛡️ CI / Workflows'
+      - '📚 Documentation'
+      - '🧹 Chore'
+  default: patch
+
+template: |
+  $CHANGES
+
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
