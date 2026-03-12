@@ -13,5 +13,5 @@
 
 ## Нарушения
 
-Сообщите через [GitHub Discussions](https://github.com/orgs/selfshop-dev/discussions) или напрямую мейнтейнеру.  
-Мейнтейнеры вправе закрывать issues/PR и исключать участников при систематических нарушениях.
+Сообщите через **[GitHub Discussions](https://github.com/orgs/selfshop-dev/discussions)** или напрямую мейнтейнеру.  
+Мейнтейнеры вправе закрывать `issues/PR` и исключать участников при систематических нарушениях.
