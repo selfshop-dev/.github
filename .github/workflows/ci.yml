@@ -3,7 +3,7 @@ name: CI
 on:
   workflow_call:
     inputs:
-      test-path:
+      test-paths:
         type: string
         default: ./...
         required: false
@@ -45,13 +45,15 @@ jobs:
           cache: true
 
       - name: Run tests with coverage
-        run: go test -v -race -coverprofile=coverage.out -covermode=atomic ${{ inputs.test-path }}
+        run: |
+          go test -v -race -coverprofile=coverage.out -covermode=atomic \
+            $(go list ${{ inputs.test-path }} | grep -v -E '/(vendor|testdata|mocks)/')
 
-      - name: Strip mock files from coverage
-        run: sed -i '/_mock\.go:/d' coverage.out || true
+      - name: Strip generated files from coverage
+        run: sed -i -E '/[_.]mock\.go:|\.pb\.go:|\.gen\.go:/d' coverage.out || true
 
       - name: Generate human-readable coverage report
-        run: go tool cover -func=coverage.out > coverage.humanize
+        run: go tool cover -func=coverage.out | tee coverage.humanize | tail -1
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v5
