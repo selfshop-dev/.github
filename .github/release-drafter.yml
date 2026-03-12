@@ -16,12 +16,10 @@ categories:
   - title: '🛡️ CI / Workflows'
     labels: ['🛡️ CI / Workflows']
     exclude-labels: ['💥 Breaking Change', '✨ Feature', '🐛 Bug']
-    collapse-after: 3
 
   - title: '🧹 Other Changes'
     labels: ['🧹 Chore', '📚 Documentation']
     exclude-labels: ['💥 Breaking Change', '✨ Feature', '🐛 Bug', '🛡️ CI / Workflows']
-    collapse-after: 3
 
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&'
