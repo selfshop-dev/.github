@@ -33,7 +33,7 @@ feature-branch → dev → main
 
 ## Требования к коду
 
-Описаны в [PULL_REQUEST_TEMPLATE.md](https://github.com/selfshop-dev/.github/blob/main/PULL_REQUEST_TEMPLATE.md) в разделе Checklist
+Описаны в [PULL_REQUEST_TEMPLATE.md](https://github.com/selfshop-dev/.github/blob/main/PULL_REQUEST_TEMPLATE.md?plain=1) в разделе Checklist
 
 ## Issues
 
