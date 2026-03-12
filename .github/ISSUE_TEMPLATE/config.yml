@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 💬 GitHub Discussions
+    url: https://github.com/selfshop-dev/discussions
+    about: |
+      Вопросы по использованию, архитектуре и идеи для обсуждения.
+      Не используйте issues для общих вопросов.
+      
+  - name: 🔒 Report a vulnerability
+    url: https://github.com/selfshop-dev/.github/security/advisories/new
+    about: |
+      Не создавай публичный issue для уязвимостей.
+      Используй Private Vulnerability Reporting.
