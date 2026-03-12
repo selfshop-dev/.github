@@ -26,6 +26,10 @@ categories:
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&'
 
+exclude-contributors:
+  - dependabot
+  - dependabot[bot]
+
 version-resolver:
   major:
     labels: ['💥 Breaking Change']
