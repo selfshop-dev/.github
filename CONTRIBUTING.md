@@ -7,7 +7,7 @@ feature-branch → dev → main
 ```
 
 1. Создайте ветку от `dev`: `feat/my-feature` / `fix/my-fix`
-2. Разработайте, соблюдая [Conventional Commits](https://www.conventionalcommits.org/)
+2. Разработайте, соблюдая **[Conventional Commits](https://www.conventionalcommits.org/)**
 3. Убедитесь, что CI зелёный: `make lint && make test`
 4. Откройте PR **в ветку `dev`**, заполните шаблон
 
@@ -15,7 +15,7 @@ feature-branch → dev → main
 
 ## Соглашение по коммитам
 
-Проект следует [Conventional Commits](https://www.conventionalcommits.org). Формат: `<type>: <summary>`, где summary — повелительное наклонение, английский язык, без точки в конце.
+Проект следует **[Conventional Commits](https://www.conventionalcommits.org)**. Формат: `<type>: <summary>`, где summary — повелительное наклонение, английский язык, без точки в конце.
 
 | Тип | Когда использовать |
 |---|---|
@@ -33,9 +33,9 @@ feature-branch → dev → main
 
 ## Требования к коду
 
-Описаны в [PULL_REQUEST_TEMPLATE.md](https://github.com/selfshop-dev/.github/blob/main/PULL_REQUEST_TEMPLATE.md?plain=1) в разделе Checklist
+Описаны в [`PULL_REQUEST_TEMPLATE.md`](https://github.com/selfshop-dev/.github/blob/main/PULL_REQUEST_TEMPLATE.md?plain=1) в разделе Checklist
 
 ## Issues
 
-Используйте шаблоны: 🐛 Bug / ✨ Feature / 💬 Question.  
-Уязвимости — только через [Private Vulnerability Reporting](../../security/advisories/new).
+Используйте шаблоны: [`🐛 Bug report`](../../issues/new?template=bug_report.md) / [`✨ Feature request`](../../issues/new?template=feature_request.md) / [`💬 Question`](../../issues/new?template=question.md).  
+Уязвимости — только через **[Private Vulnerability Reporting](../../security/advisories/new)**.
