@@ -126,4 +126,4 @@ jobs:
 
 ## Лицензия
 
-[MIT](LICENSE) © 2026 selfshop-dev
+[MIT](LICENSE) © 2026-present selfshop-dev
