@@ -42,4 +42,8 @@ version-resolver:
 template: |
   $CHANGES
 
+  ## 🔗 Links
+
+  > Нашли баг или есть предложение? Открывайте [issue](https://github.com/$OWNER/$REPOSITORY/issues/new/choose) или присоединяйтесь к [discussions](https://github.com/orgs/selfshop-dev/discussions).
+
   **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
