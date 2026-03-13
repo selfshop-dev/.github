@@ -37,5 +37,5 @@ feature-branch → dev → main
 
 ## Issues
 
-Используйте шаблоны: [`🐛 Bug report`](../../issues/new?template=bug_report.yml) / [`✨ Feature request`](../../issues/new?template=feature_request.yml) / [`💬 Question`](../../issues/new?template=question.yml).  
+Используйте [шаблоны issues](../../issues/new/choose).  
 Уязвимости — только через **[Private Vulnerability Reporting](../../security/advisories/new)**.
