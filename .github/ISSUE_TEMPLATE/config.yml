@@ -2,7 +2,7 @@ blank_issues_enabled: false
 
 contact_links:
   - name: 💬 GitHub Discussions
-    url: https://github.com/selfshop-dev/discussions
+    url: https://github.com/orgs/selfshop-dev/discussions
     about: |
       Вопросы по использованию, архитектуре и идеи для обсуждения.
       Не используйте issues для общих вопросов.
