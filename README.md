@@ -108,15 +108,15 @@ jobs:
 | [`SECURITY.md`](SECURITY.md) | Политика безопасности |
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Кодекс поведения |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Руководство для контрибьюторов |
-| [`ISSUE_TEMPLATE/`](ISSUE_TEMPLATE/) | Шаблоны issues |
+| [`ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Шаблоны issues |
 
 ## Issue Templates
 
 | Шаблон | Когда использовать |
 |---|---|
-| [`🐛 Bug report`](ISSUE_TEMPLATE/bug_report.md) | Ошибка или некорректное поведение |
-| [`✨ Feature request`](ISSUE_TEMPLATE/feature_request.md) | Новая функциональность или улучшение |
-| [`💬 Question`](ISSUE_TEMPLATE/question.md) | Вопрос по использованию или архитектуре |
+| [`🐛 Bug report`](.github/ISSUE_TEMPLATE/bug_report.yml) | Ошибка или некорректное поведение |
+| [`✨ Feature request`](.github/ISSUE_TEMPLATE/feature_request.yml) | Новая функциональность или улучшение |
+| [`💬 Question`](.github/ISSUE_TEMPLATE/question.yml) | Вопрос по использованию или архитектуре |
 
 Для уязвимостей — только **[Private Vulnerability Reporting](../../security/advisories/new)**, не через публичный issue.
 
