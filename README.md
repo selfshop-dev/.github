@@ -51,7 +51,7 @@ gh api repos/selfshop-dev/REPO-NAME/rulesets \
 ```yaml
 jobs:
   ci:
-    uses: selfshop-dev/.github/workflows/ci.yml@v1
+    uses: selfshop-dev/.github/.github/workflows/ci.yml@v1
     secrets: inherit
 ```
 
@@ -93,11 +93,11 @@ on:
 
 jobs:
   ci:
-    uses: selfshop-dev/.github/workflows/ci.yml@v1
+    uses: selfshop-dev/.github/.github/workflows/ci.yml@v1
     secrets: inherit
 
   security:
-    uses: selfshop-dev/.github/workflows/security.yml@v1
+    uses: selfshop-dev/.github/.github/workflows/security.yml@v1
 ```
 
 ## Что наследуется автоматически
