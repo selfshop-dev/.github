@@ -1,10 +1,6 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: 💬 Discussions
+  - name: Discussions
     url: https://github.com/selfshop-dev/.github/discussions
     about: Общие вопросы и идеи
-
-  - name: 🔒 Private Vulnerability Reporting
-    url: https://github.com/selfshop-dev/.github/security/advisories/new
-    about: Только для уязвимостей. Публичный issue создавать нельзя.
