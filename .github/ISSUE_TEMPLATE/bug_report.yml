@@ -1,0 +1,66 @@
+name: 🐛 Bug report
+description: Сообщить об ошибке или некорректном поведении
+title: "bug: "
+labels:
+  - 🐛 Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Спасибо за отчёт об ошибке!** ❤️
+
+        **⚠️ Не используйте этот шаблон для уязвимостей безопасности!**  
+        Для них есть отдельная приватная форма: [`🔒 Private Vulnerability Reporting`](../../security/advisories/new)
+
+  - type: input
+    id: version
+    attributes:
+      label: Версия / коммит
+      description: В какой версии или коммите обнаружена проблема?
+      placeholder: "v1.2.3 или abc123def"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Шаги для воспроизведения
+      description: Опишите подробно, как можно воспроизвести ошибку.
+      placeholder: |
+        1. Откройте ...
+        2. Нажмите ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+      description: Что должно было произойти?
+      placeholder: "Должно было появиться сообщение об успехе"
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Фактическое поведение
+      description: Что произошло вместо этого?
+      placeholder: "Появилась ошибка 500 или ничего не произошло"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Дополнительная информация
+      description: Логи, скриншоты, ссылки
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Чек-лист перед отправкой
+      options:
+        - label: Я поискал в существующих issues — проблема ещё не описана
+          required: true
+        - label: Я заполнил все поля максимально подробно
+          required: true
