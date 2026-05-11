@@ -1,23 +1,19 @@
 # Code of Conduct
 
-### Принципы
+### Principles
+- Respect all participants — regardless of experience level, language, or point of view.
+- Critique ideas, not people.
+- Constructive feedback is welcome; toxicity is not.
 
-- Уважайте участников — независимо от уровня опыта, языка и точки зрения.
-- Критикуйте идеи, а не людей.
-- Конструктивный фидбек приветствуется; токсичность — нет.
+### Not Acceptable
+- Insults, harassment, or discrimination in any form.
+- Publishing private information without consent.
+- Any behavior that creates an unsafe environment.
 
-### Недопустимо
+## Violations
+If you witness a violation or have been affected by one — report it via [`GitHub Discussions`](https://github.com/orgs/selfshop-dev/discussions) or contact the maintainer directly.
 
-- Оскорбления, преследование, дискриминация в любой форме.
-- Публикация приватной информации без согласия.
-- Любые действия, которые создают небезопасную атмосферу.
-
-## Нарушения
-
-Если вы стали свидетелем нарушения или сами пострадали — сообщите через [`GitHub Discussions`](https://github.com/orgs/selfshop-dev/discussions) или напрямую мейнтейнеру.
-
-Мейнтейнеры вправе:
-
-- предупреждать участников,
-- закрывать `issues` / `PR`,
-- исключать из проекта при систематических нарушениях.
+Maintainers reserve the right to:
+- warn participants,
+- close `issues` / `PRs`,
+- remove participants from the project for repeated violations.

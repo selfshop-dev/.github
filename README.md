@@ -1,7 +1,5 @@
 # .github
+Organization repository for [`selfshop-dev`](https://github.com/selfshop-dev). Contains default community health files for all repositories in the organization.
 
-Организационный репозиторий [`selfshop-dev`](https://github.com/selfshop-dev). Содержит дефолтные community health files для всех репозиториев организации.
-
-## Лицензия
-
+## License
 [`MIT`](LICENSE) © 2026-present [`selfshop-dev`](https://github.com/selfshop-dev)

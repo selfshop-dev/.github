@@ -3,23 +3,20 @@
 ## Changes
 
 ## Related Tickets
-
 N/A
 
 ## How to test
-
-- [ ] интеграционные / `e2e` тесты
-- [ ] unit-тесты
-- [ ] ручное тестирование (перечислить ключевые сценарии)
+- [ ] integration / `e2e` tests
+- [ ] unit tests
+- [ ] manual testing (list key scenarios)
    - ...
-- [ ] запуск локально / `staging`
+- [ ] run locally / `staging`
 
 ## Checklist
-
-- [ ] код соответствует стилю проекта (`make lint`)
-- [ ] тесты зелёные (`make test`)
-- [ ] добавлены или обновлены тесты (если применимо)
-- [ ] коммиты следуют Conventional Commits
-- [ ] coverage не упал ниже 80%
-- [ ] документация обновлена (если нужно)
-- [ ] нет ненужных debug-логов, опасного закомментированного кода и т.п.
+- [ ] code follows project style (`make lint`)
+- [ ] tests are green (`make test`)
+- [ ] tests added or updated (if applicable)
+- [ ] commits follow Conventional Commits
+- [ ] coverage has not dropped below 80%
+- [ ] documentation updated (if needed)
+- [ ] no unnecessary debug logs, dangerous commented-out code, etc.
